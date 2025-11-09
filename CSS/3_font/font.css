@@ -1,0 +1,41 @@
+header{
+    background-color: brown;
+    height: 250px;
+}
+
+h1{
+    background-color: aquamarine;
+}
+
+header > p{
+    color: chartreuse;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main > ol >li{
+    font-weight:bold;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+section >h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-shadow:  -2px 2px 1px red ;
+}
+
+
+section > p{
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    text-indent: 50px;
+    
+    
+}
