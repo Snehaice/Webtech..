@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: aqua;
+    /* height:200px; */
+    height: 100vh;
+
+    /* width:50% */
+    width: 70vh;
+
+
+}
+.outer{
+    height: 400px;
+    width: 250;
+    background-color: blue;
+    border: 3px solid black;
+} 
+
+
+.outer > .inner{
+
+    height: 50%;
+    width: 40%;
+    background-color: chocolate;
+    border: 2px solid blue;
+
+}
