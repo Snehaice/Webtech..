@@ -1,0 +1,24 @@
+header > button{
+    background-color: blue;
+    color:brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+header > button:hover{
+    background-color: red;
+    color: black;
+}
+
+header > button:active{
+    background-color: darkgreen;
+}
+
+header > ol > li:nth-child(7){
+    color: blue;
+}
+
+header > ol > li:nth-child(2n+1){
+    background-color: chocolate;
+}

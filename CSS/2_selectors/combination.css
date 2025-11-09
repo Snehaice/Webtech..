@@ -1,0 +1,30 @@
+nav{
+    background-color: crimson;
+}
+
+.outer{
+    background-color:yellowgreen;
+    height: 300px;;
+    width: 500px;
+}
+ .outer > .inner{
+    background-color:aqua
+    ;
+    height: 200px;
+    width: 300px;
+}
+
+.outer > h2{
+    color: rgb(34, 34, 138);
+}
+
+/* direct child selector */
+
+nav > #logo{
+    color: blueviolet;
+}
+/* descendent selector */
+
+.outer h1{
+    color: hotpink;
+}
